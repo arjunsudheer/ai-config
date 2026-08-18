@@ -17,10 +17,10 @@ description: "Use when making code changes and wanting a disciplined workflow: r
    - For library, framework, SDK, API, CLI, and cloud-service questions, use the Context7 CLI as the primary source for current documentation.
    - If Context7 is unavailable, fails, or is rate-limited, use fetch MCP as the fallback live documentation source and disclose that fallback in the report.
    - If both Context7 and fetch MCP fail, use the most reliable available source or training knowledge, and explicitly warn that the information may be outdated.
-   - Search for relevant documentation, existing patterns, and implementation guidance before changing code.
-   - Follow the latest documented guidance for the version in use in the codebase.
+   - Search the repository for relevant documentation, established patterns, and implementation guidance before changing code.
+   - Follow the latest documented guidance for the versions and tools in use in the codebase.
    - Prefer established best practices over ad hoc approaches.
-   - When documentation is not directly available, use the most reliable source available and keep the implementation aligned with surrounding conventions.
+   - When documentation is not directly available, use the most reliable source available and keep the implementation aligned with the repository's conventions.
 
 2. Make the smallest change that satisfies the request
    - Prefer minimal, straightforward edits over large or overengineered solutions.
