@@ -7,7 +7,7 @@ description: "Use when making code changes and wanting a disciplined workflow: r
 
 ## When to Use
 
-- When implementing a feature, fix, or refactor in the codebase.
+- When implementing a fix or refactor in the codebase.
 - When you want a deliberate workflow that balances research, simplicity, and verification.
 - When the task may benefit from documentation and test updates but should not overreach.
 

@@ -32,6 +32,12 @@ An abstraction can be an interface, protocol, function, or other contract approp
 
 Review the requested code and enough surrounding context to support findings. For a diff, distinguish new or worsened concerns from existing ones. If no scope is specified, review the current diff when available; otherwise ask what to review.
 
+- For library, framework, SDK, API, CLI, and cloud-service questions, use the Context7 CLI as the primary source for current documentation.
+- If Context7 is unavailable, fails, or is rate-limited, use fetch MCP as the fallback live documentation source and disclose that fallback in the report.
+- If both Context7 and fetch MCP fail, use the most reliable available source or training knowledge, and explicitly warn that the information may be outdated.
+- Search the repository for relevant documentation, established patterns, and implementation guidance before making recommendations.
+- Follow the latest documented guidance for the versions and tools in use in the codebase.
+
 For every proposed change:
 
 - Cite the relevant code location and describe the concrete design issue.

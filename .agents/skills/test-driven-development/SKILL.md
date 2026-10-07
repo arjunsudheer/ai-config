@@ -14,6 +14,11 @@ description: "Use a strict red-green-refactor workflow for changes to public-fac
 
 1. **Understand the behavior before delegating**
    - Inspect the relevant implementation, existing tests, and repository test conventions.
+   - For library, framework, SDK, API, CLI, and cloud-service questions, use the Context7 CLI as the primary source for current documentation.
+   - If Context7 is unavailable, fails, or is rate-limited, use fetch MCP as the fallback live documentation source and disclose that fallback in the report.
+   - If both Context7 and fetch MCP fail, use the most reliable available source or training knowledge, and explicitly warn that the information may be outdated.
+   - Search the repository for relevant documentation, established patterns, and implementation guidance before defining expected behavior.
+   - Follow the latest documented guidance for the versions and tools in use in the codebase.
    - Define the expected public behavior and the narrow scope of the change. Clarify material ambiguity with the user rather than inventing behavior.
    - Identify relevant edge cases from the behavior and existing contracts; do not add speculative expectations.
 
