@@ -10,7 +10,7 @@ SKILLS_SOURCE="$REPO_ROOT/.agents/skills"
 SKILLS_DEST="$USER_HOME/.agents/skills"
 CODEX_SOURCE="$REPO_ROOT/.codex/agents"
 CODEX_DEST="$USER_HOME/.codex/agents"
-COPILOT_SOURCE="$REPO_ROOT/.github/agents"
+COPILOT_SOURCE="$REPO_ROOT/.copilot/agents"
 COPILOT_DEST="$USER_HOME/.copilot/agents"
 
 mkdir -p "$SKILLS_DEST" "$CODEX_DEST" "$COPILOT_DEST"
