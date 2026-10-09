@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "bash": "python3 \"$HOME/.copilot/hooks/ask-rm-permission.py\"",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "bash": "python3 \"$HOME/.copilot/hooks/block-env-read.py\"",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "bash": "python3 \"$HOME/.copilot/hooks/block-git-writes.py\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
